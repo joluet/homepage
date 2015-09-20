@@ -11,16 +11,13 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-family: Roboto Regular, sans-serif;
+  font-size: 24px;
   line-height: 1.5;
   font-weight: 300;
-  color: #111;
+  color: #444;
   background-color: #fdfdfd;
   -webkit-text-size-adjust: 100%; }
-
-.fonts-loaded {
-  font-family: Roboto Regular; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -45,7 +42,7 @@ figure > img {
   display: block; }
 
 figcaption {
-  font-size: 14px; }
+  font-size: 21px; }
 
 /**
  * Lists
@@ -72,7 +69,7 @@ a {
   a:visited {
     color: #1756a9; }
   a:hover {
-    color: #111;
+    color: #444;
     text-decoration: underline; }
 
 /**
@@ -113,16 +110,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(800px - (30px * 2));
-  max-width: calc(800px - (30px * 2));
+  max-width: -webkit-calc(1000px - (30px * 2));
+  max-width: calc(1000px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(800px - (30px));
-      max-width: calc(800px - (30px));
+      max-width: -webkit-calc(1000px - (30px));
+      max-width: calc(1000px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -170,7 +167,7 @@ pre {
   .site-nav .menu-icon {
     display: none; }
   .site-nav .page-link {
-    color: #111;
+    color: #444;
     line-height: 1.5; }
     .site-nav .page-link:not(:first-child) {
       margin-left: 20px; }
@@ -268,6 +265,10 @@ pre {
 .page-heading {
   font-size: 20px; }
 
+.hello {
+  margin-bottom: .5cm;
+  margin-top: 1cm; }
+
 .post-list {
   margin-left: 0;
   list-style: none; }
@@ -275,12 +276,50 @@ pre {
     margin-bottom: 30px; }
 
 .post-meta {
-  font-size: 14px;
+  font-size: 21px;
   color: #828282; }
 
 .post-link {
   display: block;
   font-size: 24px; }
+
+.project-link {
+  width: 100%;
+  display: inline-block;
+  margin-top: 4px; }
+  .project-link,
+  .project-link:visited {
+    color: #fff; }
+
+.project-image {
+  position: relative;
+  width: 100%;
+  /* for IE 6 */
+  padding: 10px; }
+  @media screen and (max-width: 600px) {
+    .project-image {
+      text-align: center; }
+      .project-image img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto; } }
+
+.project-text {
+  position: absolute;
+  top: 30px;
+  left: 280px;
+  width: 420px; }
+  @media screen and (max-width: 600px) {
+    .project-text {
+      text-align: center; } }
+
+@media screen and (max-width: 600px) {
+  .not-on-mobile {
+    display: none; } }
+
+@media screen and (min-width: 800px) {
+  .only-on-mobile {
+    display: none; } }
 
 /**
  * Posts

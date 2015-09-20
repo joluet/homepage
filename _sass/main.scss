@@ -3,15 +3,14 @@
 
 
 // Our variables
-$base-font-family: Helvetica, Arial, sans-serif;
-$roboto-font-family: Roboto Regular;
-$base-font-size:   16px;
+$base-font-family: Roboto Regular, sans-serif;
+$base-font-size:   24px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
-$text-color:       #111;
+$text-color:       #444;
 $background-color: #fdfdfd;
 $brand-color:      #2a7ae2;
 
@@ -19,8 +18,10 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
+$text-light-color: #fff;
+
 // Width of the content area
-$content-width:    800px;
+$content-width:   1000px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -39,6 +40,13 @@ $on-laptop:        800px;
         @content;
     }
 }
+
+@mixin media-querya($device) {
+    @media screen and (min-width: $device) {
+        @content;
+    }
+}
+
 
 
 

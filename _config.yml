@@ -1,17 +1,29 @@
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
+title: Jonas Luthke, Android Developer
+email: hi@jonas.tech
+hello: >
+  Hi, my name is Jonas and I'm a freelance Android Developer based in London.
+more: >
+  I've worked in a couple of product teams and helped building pretty big apps.
+  But I also created some smaller ones in form of side projects on my own.</p>
+  I write clean code and construct robust architectures. I test my code using
+  unit and ui tests. I like working in agile team environments. 
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://jonas.tech" # the base hostname & protocol for your site
+twitter_username: jonasluthke
+github_username:  joluet
 
 # Build settings
 markdown: kramdown
+
+# custom collection for projects
+collections:
+  projects:
+    output: true
 
 exclude: [
   "/node_modules",
