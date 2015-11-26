@@ -4,20 +4,28 @@ layout: default
 
 <div class="home">
 
+  <div class="site-title">
+  <h1>{{ site.title }}</h1>
+  <h2>{{ site.subtitle }}</h2>
+</div>
   <div class="hello">
-    <h2 class="text">{{ site.hello }}</h2>
-    <h3>{{ site.more }}</h3>
+    {{ site.hello }}<br>
+    <hr style="height:15pt; visibility:hidden;" />
+    {{ site.more }}
   </div>
 
-  {% for project in site.projects | sort: 'order' %}
+  <h2>Recent Work</h2>
+
+  {% assign projects = site.projects | sort: 'order' %}
+  {% for project in projects %}
   <a class="project-link" href="{{ project.url | prepend: site.baseurl }}">
     <div class="project-image" style="background-color:{{project.color}}" >
       <img src="{{  project.imageurl }}"/>
+      <div class="overlay"></div>
       <div class="project-text">
-        <div class="not-on-mobile"><h3>{{  project.title }}</h3></div>
+        <h3>{{  project.title }}</h3>
         <div class="not-on-mobile">{{  project.abstract }}</div>
       </div>
-      <div class="only-on-mobile">{{  project.title }}</div>
     </div>
   </a>
   {% endfor %}

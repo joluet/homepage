@@ -5,3 +5,11 @@
 	url(../assets/Roboto-Regular.ttf);
 	font-weight: normal;
 }
+
+@font-face {
+	font-family: "Roboto Bold";
+	src: local("Roboto Bold"),
+	local("Roboto-Bold"),
+	url(../assets/Roboto-Bold.ttf);
+	font-weight: bold;
+}

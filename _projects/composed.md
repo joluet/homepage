@@ -1,29 +1,17 @@
 ---
-layout: post
+layout: project
 title:  "Composed"
 order: 2
 color: "#37a066"
 imageurl: assets/images/projects/composed.png
+big-image-url: assets/images/projects/composed_big.png
 abstract: >
-  For X months, I have worked on the Composed music streaming app as the only Android
+  For 13 months, I have worked on the Composed classical music streaming app being the only Android
   developer in the Composed product team.
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Composed is an innovative niche digital music streaming service and is a subsidiary of Universal Music, the owner of the largest classical music catalogue on the planet.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
-
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+Being part of a small autonomous product team I've been responsible for the Composed Android app for 13 months.
+I've implemented several new features like a new audio playback component or composer playlists.
+Because of the small size of the Composed product team I was able to help with different
+product related tasks like user research or customer data analysis.
