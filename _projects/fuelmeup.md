@@ -5,7 +5,7 @@ order: 4
 color: "#41bae7"
 categories: jekyll update
 imageurl: assets/images/projects/fuel-me-up.png
-big-image-url: assets/images/projects/compass_navigation.jpg
+big-image-url: assets/images/projects/fuel-me-up.png
 abstract: >
   This is one of my personal projects. It is a small utility app that helps finding
   car sharing cars and saving money.
