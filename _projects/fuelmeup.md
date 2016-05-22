@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "FuelMeUp"
-order: 4
+order: 5
 color: "#41bae7"
 categories: jekyll update
 imageurl: assets/images/projects/fuel-me-up.png
