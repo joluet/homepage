@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Composed"
-order: 2
+order: 3
 color: "#37a066"
 imageurl: assets/images/projects/composed.png
 big-image-url: assets/images/projects/composed_big.png
