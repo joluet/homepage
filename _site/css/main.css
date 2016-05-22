@@ -14,15 +14,14 @@ body {
   font-family: Roboto Regular, sans-serif;
   font-size: 28px;
   line-height: 1.5;
-  font-weight: 300;
   color: #444;
   background-color: #fdfdfd;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased; }
   @media screen and (max-width: 550px) {
     body {
       font-size: 21px; } }
-  body h1, body h2, body h3, body h4, body h5, body h6 {
-    text-align: center; }
 
 /**
  * Set `margin-bottom` to maintain vertical rhythm
@@ -58,12 +57,6 @@ ul, ol {
 li > ul,
 li > ol {
   margin-bottom: 0; }
-
-/**
- * Headings
- */
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300; }
 
 /**
  * Links
@@ -115,16 +108,16 @@ pre {
  * Wrapper
  */
 .wrapper {
-  max-width: -webkit-calc(1000px - (30px * 2));
-  max-width: calc(1000px - (30px * 2));
+  max-width: -webkit-calc(850px - (30px * 2));
+  max-width: calc(850px - (30px * 2));
   margin-right: auto;
   margin-left: auto;
   padding-right: 30px;
   padding-left: 30px; }
   @media screen and (max-width: 800px) {
     .wrapper {
-      max-width: -webkit-calc(1000px - (30px));
-      max-width: calc(1000px - (30px));
+      max-width: -webkit-calc(850px - (30px));
+      max-width: calc(850px - (30px));
       padding-right: 15px;
       padding-left: 15px; } }
 
@@ -157,13 +150,22 @@ pre {
   position: relative; }
 
 .site-title {
-  text-align: center;
-  line-height: 1.3; }
-  .site-title h1, .site-title h2 {
+  text-align: left;
+  line-height: 1.0; }
+  .site-title h1 {
+    margin-top: 0px;
+    font-weight: bold;
+    font-size: 48px; }
+  .site-title h2 {
+    font-size: 36px;
     font-weight: bold; }
-  .site-title,
-  .site-title:visited {
+  .site-title, .site-title:visited {
     color: #424242; }
+
+.projects-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 0px; }
 
 .site-nav {
   float: right;
@@ -264,15 +266,15 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 100px 0; }
 
 .page-heading {
   font-size: 20px; }
 
 .hello {
-  margin-bottom: 2.5cm;
-  margin-top: 3.5cm;
-  text-align: justify; }
+  margin-bottom: 50px;
+  margin-top: 50px;
+  text-align: left; }
 
 .post-list {
   margin-left: 0;
@@ -291,16 +293,23 @@ pre {
 .project-link {
   width: 100%;
   display: inline-block;
-  margin-top: 20px; }
-  .project-link,
-  .project-link:visited {
-    color: #fff; }
+  margin-top: 20px;
+  color: #fff;
+  font-weight: normal; }
+  .project-link, .project-link:visited {
+    color: #fff;
+    font-weight: normal; }
 
 .project-image {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  padding: 10px; }
+  padding: 20px; }
+  .project-image img {
+    height: 210px; }
+  @media screen and (min-width: 800px) {
+    .project-image {
+      padding: 30px; } }
   @media screen and (max-width: 550px) {
     .project-image {
       text-align: center; }
@@ -314,7 +323,7 @@ pre {
   left: 0;
   top: 0;
   right: 0;
-  height: 320px;
+  height: 250px;
   width: 100%;
   margin: auto;
   position: absolute;
@@ -326,11 +335,21 @@ pre {
 
 .project-text {
   position: absolute;
-  top: 30px;
-  margin-left: 230px;
-  margin-right: 10px; }
+  top: 20px;
+  margin-left: 200px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  font-weight: normal;
+  font-size: 22px; }
+  @media screen and (min-width: 800px) {
+    .project-text {
+      top: 30px;
+      font-size: 28px; } }
   .project-text h3 {
-    text-align: left; }
+    padding-top: 0px;
+    text-align: left;
+    font-size: 28px;
+    font-weight: normal; }
   @media screen and (max-width: 550px) {
     .project-text {
       width: 100%;
@@ -341,8 +360,7 @@ pre {
       bottom: 0; }
       .project-text h3 {
         text-align: center;
-        font-weight: bold;
-        font-size: 40px; } }
+        font-size: 28px; } }
 
 @media screen and (max-width: 550px) {
   .not-on-mobile {
