@@ -1,10 +1,12 @@
 ---
 layout: project
 title:  "Compass Navigation"
+order: 4
 color: "#ef5350"
-order: 1
-imageurl: assets/images/projects/promo_combination.png
+categories: projects
+imageurl: assets/images/projects/promo_combination_small.png
 big-image-url: assets/images/projects/compass_navigation.jpg
+big-image-width: 100%
 abstract: >
   This app is one of my personal projects. It is a compass navigation app for
   Android Wear smart watches.

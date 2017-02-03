@@ -1,11 +1,12 @@
 ---
 layout: project
 title:  "Wunder"
-order: 4
+order: 5
 color: "#39d0ee"
-categories: jekyll update
-imageurl: assets/images/projects/wundercar_1.png
+categories: projects
+imageurl: assets/images/projects/wundercar_small.png
 big-image-url: assets/images/projects/wundercar_big.jpg
+big-image-width: 70%
 abstract: >
   Being part of the Wunder engineering team I developed the initial
   version of the Wunder ride sharing app.

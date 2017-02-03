@@ -266,7 +266,7 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 100px 0; }
+  padding: 50px 0; }
 
 .page-heading {
   font-size: 20px; }
@@ -337,14 +337,14 @@ pre {
   position: absolute;
   top: 20px;
   margin-left: 200px;
-  margin-right: 10px;
+  margin-right: 30px;
   margin-bottom: 30px;
   font-weight: normal;
   font-size: 22px; }
   @media screen and (min-width: 800px) {
     .project-text {
       top: 30px;
-      font-size: 28px; } }
+      font-size: 24px; } }
   .project-text h3 {
     padding-top: 0px;
     text-align: left;
@@ -375,6 +375,10 @@ pre {
  */
 .post-header {
   margin-bottom: 30px; }
+  .post-header img {
+    display: block;
+    margin: auto;
+    margin-bottom: 50px; }
 
 .post-title {
   font-size: 42px;

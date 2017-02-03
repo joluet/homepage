@@ -176,7 +176,7 @@
  * Page content
  */
 .page-content {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 .page-heading {
@@ -259,13 +259,13 @@
    position: absolute;
    top: 20px;
    margin-left: 200px;
-   margin-right: 10px;
+   margin-right: 30px;
    margin-bottom: 30px;
    font-weight: normal;
    font-size: 22px;
    @include media-querya($on-laptop) {
        top: 30px;
-       font-size: $base-font-size;
+       font-size: 24px;
    }
    h3{
      padding-top: 0px;
@@ -305,6 +305,11 @@
  */
 .post-header {
     margin-bottom: $spacing-unit;
+    img {
+      display: block;
+      margin: auto;
+      margin-bottom: 50px;
+    }
 }
 
 .post-title {
