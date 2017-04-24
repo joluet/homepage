@@ -1,15 +1,15 @@
 # Site settings
-title: Jonas Luthke
-subtitle: Android Developer
 email: hi@jonas.tech
 hello: >
-  Hi, my name is Jonas and I'm a freelance Android Developer with 6 years of experience.</br>
-  I'm an advocate for user focussed product design, clean code and deliberate software architectures.
-  I like working in agile teams and collaborating with other developers and designers.
+  Hi, my name is Jonas and I'm a Berlin-based
+  freelance Android developer.
+  I'm an advocate for user-focussed product design,
+  clean code and deliberate software architectures.
+  <a href="https://represent.io/jonas">Here</a> you can find my CV.
 more:
 
 description: >
-  I'm a freelance Android Developer based in London who advocates for user focussed product design,
+  I'm a freelance Android Developer based in Berlin who advocates for user focussed product design,
   clean code and deliberate software architectures. I like working in agile teams and strive for buidling products that users love.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://jonas.tech" # the base hostname & protocol for your site

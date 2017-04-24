@@ -176,7 +176,7 @@
  * Page content
  */
 .page-content {
-    padding: 50px 0;
+    padding: 0px 0;
 }
 
 .page-heading {
@@ -184,8 +184,13 @@
 }
 
 .hello {
-  margin-bottom: 50px;
-  margin-top: 50px;
+  font-family: $medium-font-family;
+  margin-bottom: 40px;
+  margin-top: 60px;
+  @include media-query($on-palm) {
+  margin-bottom: 10px;
+    margin-top: 40px;
+  }
   text-align: left;
 }
 
@@ -229,16 +234,16 @@
   img {
      height: 210px;
   }
-  @include media-querya($on-laptop) {
+  @include media-query($on-laptop) {
   padding: 30px;
   }
   @include media-query($on-palm) {
-    img {
-      display: block;
-      margin-left: auto;
-      margin-right: auto;
-    }
-    text-align: center;
+    // img {
+    //   display: block;
+    //   margin-left: auto;
+    //   margin-right: auto;
+    // }
+    // text-align: center;
   }
 }
 
@@ -251,7 +256,7 @@
   background-color:#000;
   opacity:0.0;
   @include media-query($on-palm) {
-  opacity:0.4;
+  opacity:0.0;
   }
 }
 
@@ -262,10 +267,10 @@
    margin-right: 30px;
    margin-bottom: 30px;
    font-weight: normal;
-   font-size: 22px;
-   @include media-querya($on-laptop) {
+   font-size: 16px;
+   @include media-query($on-laptop) {
        top: 30px;
-       font-size: 24px;
+       font-size: 20px;
    }
    h3{
      padding-top: 0px;
@@ -276,11 +281,12 @@
    @include media-query($on-palm) {
      width: 100%;
      h3 {
-     text-align: center;
-     font-size: $base-font-size;
+       text-align: left;
+       font-size: $base-font-size;
+       margin-left: 50%;
      }
     margin: auto;
-    top: 60px;
+    top: 80px;
     left:0;
     right:0;
     bottom:0;
@@ -298,6 +304,20 @@
   @include media-querya($on-laptop) {
       display: none;
   }
+}
+
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	padding-top: 25px;
+	height: 0;
+}
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 }
 
 /**

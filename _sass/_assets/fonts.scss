@@ -13,3 +13,11 @@
 	url(../assets/Roboto-Bold.ttf);
 	font-weight: bold;
 }
+
+@font-face {
+	font-family: "Roboto Medium";
+	src: local("Roboto Medium"),
+	local("Roboto-Medium"),
+	url(../assets/Roboto-Medium.ttf);
+	font-weight: normal;
+}
