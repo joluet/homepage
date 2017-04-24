@@ -312,16 +312,9 @@ pre {
   padding: 20px; }
   .project-image img {
     height: 210px; }
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 800px) {
     .project-image {
       padding: 30px; } }
-  @media screen and (max-width: 550px) {
-    .project-image {
-      text-align: center; }
-      .project-image img {
-        display: block;
-        margin-left: auto;
-        margin-right: auto; } }
 
 .overlay {
   bottom: 0;
@@ -336,7 +329,7 @@ pre {
   opacity: 0.0; }
   @media screen and (max-width: 550px) {
     .overlay {
-      opacity: 0.4; } }
+      opacity: 0.0; } }
 
 .project-text {
   position: absolute;
@@ -346,7 +339,7 @@ pre {
   margin-bottom: 30px;
   font-weight: normal;
   font-size: 16px; }
-  @media screen and (min-width: 800px) {
+  @media screen and (max-width: 800px) {
     .project-text {
       top: 30px;
       font-size: 20px; } }
@@ -359,13 +352,14 @@ pre {
     .project-text {
       width: 100%;
       margin: auto;
-      top: 60px;
+      top: 80px;
       left: 0;
       right: 0;
       bottom: 0; }
       .project-text h3 {
-        text-align: center;
-        font-size: 28px; } }
+        text-align: left;
+        font-size: 28px;
+        margin-left: 50%; } }
 
 @media screen and (max-width: 550px) {
   .not-on-mobile {
