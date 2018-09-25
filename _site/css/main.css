@@ -338,11 +338,11 @@ pre {
   margin-right: 30px;
   margin-bottom: 30px;
   font-weight: normal;
-  font-size: 16px; }
+  font-size: 20px; }
   @media screen and (max-width: 800px) {
     .project-text {
       top: 30px;
-      font-size: 20px; } }
+      font-size: 16px; } }
   .project-text h3 {
     padding-top: 0px;
     text-align: left;
