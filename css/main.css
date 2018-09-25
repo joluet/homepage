@@ -163,8 +163,8 @@ pre {
     color: #424242; }
 
 .projects-title h2 {
-  font-size: 36px;
-  font-weight: bold;
+  font-weight: normal;
+  font-size: 28px;
   margin-bottom: 0px; }
 
 .site-nav {
@@ -272,14 +272,22 @@ pre {
   font-size: 20px; }
 
 .hello {
+  font-size: 58px;
   font-family: Roboto Medium, sans-serif;
-  margin-bottom: 40px;
-  margin-top: 60px;
+  margin-bottom: 30px;
+  margin-top: 100px;
   text-align: left; }
   @media screen and (max-width: 550px) {
     .hello {
       margin-bottom: 10px;
       margin-top: 40px; } }
+
+.more {
+  font-size: 28px;
+  font-family: Roboto Normal, sans-serif;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  text-align: left; }
 
 .post-list {
   margin-left: 0;
@@ -338,11 +346,11 @@ pre {
   margin-right: 30px;
   margin-bottom: 30px;
   font-weight: normal;
-  font-size: 16px; }
+  font-size: 20px; }
   @media screen and (max-width: 800px) {
     .project-text {
       top: 30px;
-      font-size: 20px; } }
+      font-size: 16px; } }
   .project-text h3 {
     padding-top: 0px;
     text-align: left;
