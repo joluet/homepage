@@ -1,13 +1,13 @@
 # Site settings
 email: hi@jonas.tech
 hello: >
-  Hi, my name is Jonas and I'm a Berlin-based
-  freelance Android developer.
+  Hi, I'm Jonas
+more:
+  A Berlin-based freelance mobile developer.
+
   I'm an advocate for user-focussed product design,
   clean code and deliberate software architectures.
   <a href="https://represent.io/jonas">Here</a> you can find my CV.
-more:
-
 description: >
   I'm a freelance Android Developer based in Berlin who advocates for user focussed product design,
   clean code and deliberate software architectures. I like working in agile teams and strive for buidling products that users love.
