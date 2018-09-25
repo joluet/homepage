@@ -1,14 +1,14 @@
 ---
 layout: project
 title:  "Monzo"
-order: 1
+order: 2
 color: "#15233C"
 categories: projects
 imageurl: assets/images/projects/monzo_small.png
 big-image-url: assets/images/projects/monzo_big.jpg
 big-image-width: 70%
 abstract: >
-  The Monzo app is a completely new approach on managing your finance. It updates your balance instantly, gives intelligent notifications, and is easy to use. <br>I had the pleasure of building the first version of the Monzo Android app.
+  The Monzo app is a completely new approach on managing your finance. It updates your balance instantly, gives intelligent notifications, and is easy to use. I had the pleasure of building the first version of the Monzo Android app.
 ---
 
 [Monzo](https://monzo.com) is a start up bank that is reinventing retail banking. They want to make banking simple and effortless by providing a well designed and carefully crafted app that gives their customers all the information and control they need.

@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "Compass Navigation"
-order: 4
+order: 5
 color: "#ef5350"
 categories: projects
 imageurl: assets/images/projects/promo_combination_small.png

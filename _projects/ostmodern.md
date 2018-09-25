@@ -1,7 +1,7 @@
 ---
 layout: project
 title:  "BBC Player"
-order: 2
+order: 3
 color: "#0396c8"
 categories: projects
 imageurl: assets/images/projects/bbc_player_small.png
